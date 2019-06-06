@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/enable_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:text="@string/JSAConfigureProxyDialog_enable_poxy" style="?android:attr/textAppearanceMedium" />
+    <EditText android:id="@id/host_edittext" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/JSAConfigureProxyDialog_host" android:maxLines="1" android:singleLine="true" android:inputType="text" style="?android:attr/textAppearanceMedium" />
+    <EditText android:id="@id/port_edittext" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:hint="@string/JSAConfigureProxyDialog_port" android:maxLines="1" android:singleLine="true" android:inputType="number" style="?android:attr/textAppearanceMedium" />
+</LinearLayout>

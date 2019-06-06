@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nz.co.jsalibrary.android.widget.JSAAnimatingFrameLayout android:id="@id/animatinglayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/listing_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@string/property" />
+                <TextView android:textStyle="bold" android:gravity="center" android:id="@id/header_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/Home.Header.Text" />
+                <ProgressBar android:id="@id/image_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/ProgressBar.Large" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/listing_details_layout" android:background="@android:color/white" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:ellipsize="end" android:id="@id/address_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/Application.Text.Medium.Grey" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                    <TextView android:textStyle="bold" android:id="@id/price_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" style="@style/Application.Text.Medium.Primary" />
+                    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/include_furnishing_details" />
+                </LinearLayout>
+                <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/open_home_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" style="@style/Application.Text.Small.Orange" />
+            </LinearLayout>
+            <TextView android:id="@id/discover_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/discover_for_sale" style="@style/Home.Discover.Text" />
+            <ImageView android:id="@id/ad_imageview" android:background="@android:color/white" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/img_sponsor_logo" android:scaleType="fitCenter" android:contentDescription="@string/advertisement" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/footer" android:background="@color/blue" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/near_me_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <nz.co.jsalibrary.android.widget.JSALazyStateImageView android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/ic_near_me_white_24dp" android:layout_weight="1.0" android:contentDescription="@string/near_me" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/near_me" style="@style/Application.Text.Small.White" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/search_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <nz.co.jsalibrary.android.widget.JSALazyStateImageView android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/ic_search_white_24dp" android:layout_weight="1.0" android:contentDescription="@string/search" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search" style="@style/Application.Text.Small.White" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/my_property_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <nz.co.jsalibrary.android.widget.JSALazyStateImageView android:id="@id/my_property_imageview" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/ic_home_white_24dp" android:layout_weight="1.0" android:contentDescription="@string/my_property" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_property" style="@style/Application.Text.Small.White" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/property_type_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <nz.co.jsalibrary.android.widget.JSALazyStateImageView android:layout_gravity="center" android:id="@id/property_type_imageview" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/ic_vpn_key_white_24dp" android:layout_weight="1.0" android:contentDescription="@string/property_type" />
+                    <TextView android:id="@id/property_type_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rentals" style="@style/Application.Text.Small.White" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</nz.co.jsalibrary.android.widget.JSAAnimatingFrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Application.Text" parent="@android:style/TextAppearance" />
+    <style name="Application.Text.Large" parent="@style/Application.Text">
+        <item name="android:textSize">24.0sp</item>
+    </style>
+    <style name="Application.Text.Medium" parent="@style/Application.Text">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="Application.Text.Small" parent="@style/Application.Text">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="Application.Text.Tiny" parent="@style/Application.Text">
+        <item name="android:textSize">11.0sp</item>
+    </style>
+    <style name="Home.Discover.Text" parent="@style/Application.Text.Large.Grey">
+        <item name="android:textSize">36.0dip</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:padding">20.0dip</item>
+    </style>
+</resources>

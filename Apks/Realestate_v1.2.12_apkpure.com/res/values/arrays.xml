@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="JSACalendarView_month_names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="JSACalendarView_weekday_names">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="number_of_bedrooms">
+        <item>Any</item>
+        <item>1+</item>
+        <item>2+</item>
+        <item>3+</item>
+        <item>4+</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="open_homes">
+        <item>Any</item>
+        <item>Open Homes only</item>
+    </string-array>
+    <string-array name="property_types">
+        <item>Any</item>
+        <item>House</item>
+        <item>Apartment</item>
+        <item>Studio</item>
+        <item>Townhouse</item>
+        <item>Unit</item>
+        <item>Home &amp; Income</item>
+        <item>Lifestyle Property</item>
+        <item>Lifestyle Section</item>
+        <item>Section</item>
+    </string-array>
+</resources>

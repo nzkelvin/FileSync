@@ -1,0 +1,38 @@
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Bot Application1.dll.config
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Bot Application1.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Bot Application1.pdb
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Autofac.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Chronic.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.Bot.Builder.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.Bot.Connector.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.Rest.ClientRuntime.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.WindowsAzure.Configuration.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Newtonsoft.Json.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\System.IdentityModel.Tokens.Jwt.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\System.Net.Http.Formatting.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\System.Web.Http.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\System.Web.Http.WebHost.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Autofac.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.Bot.Builder.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.Bot.Connector.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Microsoft.WindowsAzure.Configuration.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\Newtonsoft.Json.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\System.IdentityModel.Tokens.Jwt.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\System.Net.Http.Formatting.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\System.Web.Http.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\System.Web.Http.WebHost.xml
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\en\Microsoft.Bot.Builder.resources.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\es\Microsoft.Bot.Builder.resources.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\obj\Debug\HotelBot.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\HotelBot\HotelBot\obj\Debug\Bot Application1.dll
+\\Mac\Home\Desktop\HotelBot\HotelBot\obj\Debug\Bot Application1.pdb

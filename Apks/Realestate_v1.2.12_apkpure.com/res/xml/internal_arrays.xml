@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-tuple-array name="prices_from_for_sale">
+        <item a="Any" b="0" />
+        <item a="$100k" b="100000" />
+        <item a="$150k" b="150000" />
+        <item a="$200k" b="200000" />
+        <item a="$300k" b="300000" />
+        <item a="$400k" b="400000" />
+        <item a="$500k" b="500000" />
+        <item a="$600k" b="600000" />
+        <item a="$700k" b="700000" />
+        <item a="$800k" b="800000" />
+        <item a="$900k" b="900000" />
+        <item a="$1m" b="1000000" />
+        <item a="$1.3m" b="1300000" />
+        <item a="$1.5m" b="1500000" />
+        <item a="$1.8m" b="1800000" />
+        <item a="$2m" b="2000000" />
+        <item a="$2.5m" b="2500000" />
+    </string-tuple-array>
+    <string-tuple-array name="prices_to_for_sale">
+        <item a="$100k" b="100000" />
+        <item a="$150k" b="150000" />
+        <item a="$200k" b="200000" />
+        <item a="$300k" b="300000" />
+        <item a="$400k" b="400000" />
+        <item a="$500k" b="500000" />
+        <item a="$600k" b="600000" />
+        <item a="$700k" b="700000" />
+        <item a="$800k" b="800000" />
+        <item a="$900k" b="900000" />
+        <item a="$1m" b="1000000" />
+        <item a="$1.3m" b="1300000" />
+        <item a="$1.5m" b="1500000" />
+        <item a="$1.8m" b="1800000" />
+        <item a="$2m" b="2000000" />
+        <item a="$2.5m" b="2500000" />
+        <item a="Any" b="1000000000" />
+    </string-tuple-array>
+    <string-tuple-array name="prices_from_rental">
+        <item a="$Any" b="0" />
+        <item a="$75" b="75" />
+        <item a="$100" b="100" />
+        <item a="$125" b="125" />
+        <item a="$150" b="150" />
+        <item a="$175" b="175" />
+        <item a="$200" b="200" />
+        <item a="$225" b="225" />
+        <item a="$250" b="250" />
+        <item a="$300" b="300" />
+        <item a="$350" b="350" />
+        <item a="$400" b="400" />
+        <item a="$450" b="450" />
+        <item a="$500" b="500" />
+        <item a="$600" b="600" />
+        <item a="$700" b="700" />
+        <item a="$800" b="800" />
+        <item a="$900" b="900" />
+        <item a="$1,000" b="1000" />
+        <item a="$1,250" b="1250" />
+        <item a="$1,500" b="1500" />
+        <item a="$1,750" b="1750" />
+        <item a="$2,000" b="2000" />
+        <item a="$2,500" b="2500" />
+    </string-tuple-array>
+    <string-tuple-array name="prices_to_rental">
+        <item a="$75" b="75" />
+        <item a="$100" b="100" />
+        <item a="$125" b="125" />
+        <item a="$150" b="150" />
+        <item a="$175" b="175" />
+        <item a="$200" b="200" />
+        <item a="$225" b="225" />
+        <item a="$250" b="250" />
+        <item a="$300" b="300" />
+        <item a="$350" b="350" />
+        <item a="$400" b="400" />
+        <item a="$450" b="450" />
+        <item a="$500" b="500" />
+        <item a="$600" b="600" />
+        <item a="$700" b="700" />
+        <item a="$800" b="800" />
+        <item a="$900" b="900" />
+        <item a="$1,000" b="1000" />
+        <item a="$1,250" b="1250" />
+        <item a="$1,500" b="1500" />
+        <item a="$1,750" b="1750" />
+        <item a="$2,000" b="2000" />
+        <item a="$2,500" b="2500" />
+        <item a="$Any" b="1000000000" />
+    </string-tuple-array>
+</resources>

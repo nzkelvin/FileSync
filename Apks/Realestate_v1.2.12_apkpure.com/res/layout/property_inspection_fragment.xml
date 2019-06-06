@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/overview" style="@style/Application.Text.Category" />
+            <nz.co.realestate.android.lib.ui.shared.RESInspectionOption android:id="@id/overall_inspectionoption" android:layout_width="fill_parent" android:layout_height="wrap_content" app:section="@string/overall" app:sectionId="1" app:analytics="overall" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/checklist" style="@style/Application.Text.Category" />
+            <LinearLayout android:orientation="vertical" android:id="@id/checklist_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:id="@id/ad_imageview" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:contentDescription="@string/advertisement" />
+</LinearLayout>

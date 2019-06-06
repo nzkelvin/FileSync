@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <nz.co.realestate.android.lib.ui.shared.RESAgentDetails android:id="@id/agentdetails" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="10.0dip" />
+            <TextView android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/promotional_banner" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enter_to_win" style="@style/Enquire.Banner.Text" />
+            <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/name_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/your_name" android:singleLine="true" android:inputType="textPersonName|textCapWords" style="@style/Application.Text.Medium.Black" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/phone_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/your_phone" android:singleLine="true" android:inputType="phone" style="@style/Application.Text.Medium.Black" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/email_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/your_email" android:singleLine="true" android:inputType="textEmailAddress" style="@style/Application.Text.Medium.Black" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:gravity="center|left|top" android:id="@id/message_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/your_message" android:maxLines="10" android:lines="5" android:inputType="textCapSentences|textMultiLine" style="@style/Application.Text.Medium.Black" />
+            </android.support.design.widget.TextInputLayout>
+            <Button android:layout_gravity="center_horizontal" android:id="@id/competition_rules_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/competition_rules" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@id/send_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/send" style="@style/Application.Button" />
+</LinearLayout>

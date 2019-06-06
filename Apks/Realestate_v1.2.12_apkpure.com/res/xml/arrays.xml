@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-map-array name="listing_sort_options">
+        <item value="-listing_date" title="Latest" description="Showing latest listing first" analytics="sort-latest-date" />
+        <item value="price_min" title="Lowest price" description="Showing lowest price first" analytics="sort-price-min" />
+        <item value="-price_min" title="Highest price" description="Showing highest price first" analytics="sort-price-max" />
+    </string-map-array>
+    <string-map-array name="mortgage_payment_frequency">
+        <item title="Weekly" value="52" />
+        <item title="Fortnightly" value="26.0893" />
+        <item title="Monthly" value="12" />
+    </string-map-array>
+    <string-tuple-array name="listed_after">
+        <item a="Any" b="1000000000" />
+        <item a="24 hours" b="1" />
+        <item a="2 days" b="2" />
+        <item a="3 days" b="3" />
+        <item a="4 days" b="4" />
+        <item a="5 days" b="5" />
+        <item a="6 days" b="6" />
+        <item a="7 days" b="7" />
+        <item a="8 days" b="8" />
+        <item a="9 days" b="9" />
+        <item a="10 days" b="10" />
+        <item a="11 days" b="11" />
+        <item a="12 days" b="12" />
+        <item a="13 days" b="13" />
+        <item a="14 days" b="14" />
+    </string-tuple-array>
+    <string-tuple-array name="floor_area_from">
+        <item a="Any" b="0" />
+        <item a="50m²" b="50" />
+        <item a="100m²" b="100" />
+        <item a="200m²" b="200" />
+        <item a="300m²" b="300" />
+        <item a="500m²" b="500" />
+        <item a="750m²" b="750" />
+        <item a="1,000m²" b="1000" />
+        <item a="2,000m²" b="2000" />
+        <item a="5,000m²" b="5000" />
+        <item a="7,500m²" b="7500" />
+        <item a="10,000m²" b="10000" />
+    </string-tuple-array>
+    <string-tuple-array name="floor_area_to">
+        <item a="Any" b="1000000000" />
+        <item a="50m²" b="50" />
+        <item a="100m²" b="100" />
+        <item a="200m²" b="200" />
+        <item a="300m²" b="300" />
+        <item a="500m²" b="500" />
+        <item a="750m²" b="750" />
+        <item a="1,000m²" b="1000" />
+        <item a="2,000m²" b="2000" />
+        <item a="5,000m²" b="5000" />
+        <item a="7,500m²" b="7500" />
+        <item a="10,000m²" b="10000" />
+        <item a="Any" b="1000000000" />
+    </string-tuple-array>
+</resources>

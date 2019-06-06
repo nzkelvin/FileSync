@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="showing_n_listings">{0,choice,0#No listings|1#Showing 1 listing|1&lt;Showing {0} listings}</string>
+    <string name="updating_listings">Updating listings…</string>
+</resources>

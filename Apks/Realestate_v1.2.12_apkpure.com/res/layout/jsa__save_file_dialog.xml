@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="6.0sp" android:paddingRight="6.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/filename_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="text" android:imeOptions="actionDone" />
+    <TextView android:gravity="center_horizontal" android:id="@id/overwrite_textview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/JSASaveFileDialog_file_already_exists" />
+</LinearLayout>

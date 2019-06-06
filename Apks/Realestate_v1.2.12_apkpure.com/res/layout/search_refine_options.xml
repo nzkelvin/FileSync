@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/property_type_row" layout="@layout/search_row" />
+    <include android:id="@id/number_of_bedrooms_row" layout="@layout/search_row" />
+    <include android:id="@id/price_row" layout="@layout/search_row" />
+    <include android:id="@id/open_homes_row" layout="@layout/search_row" />
+    <include android:id="@id/listed_after_row" layout="@layout/search_row" />
+</merge>

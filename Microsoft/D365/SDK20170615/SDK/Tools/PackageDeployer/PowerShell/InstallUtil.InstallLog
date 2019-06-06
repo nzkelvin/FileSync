@@ -1,0 +1,28 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.dll assembly's progress.
+The file is located at C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.dll assembly's progress.
+The file is located at C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.PackageDeployment.Powershell.dll assembly's progress.
+The file is located at C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.PackageDeployment.Powershell.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.PackageDeployment.Powershell.dll assembly's progress.
+The file is located at C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.PackageDeployment.Powershell.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/rating_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_inspection_rating" android:contentDescription="@string/_no_content_description" />
+    <TextView android:ellipsize="end" android:id="@id/inspection_section_textview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" android:layout_weight="1.0" style="@style/Application.Text.Medium.Black" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/ic_inspection_note" android:contentDescription="@string/_no_content_description" />
+    <TextView android:id="@id/notes_count_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" style="@style/Application.Text.Medium.Grey" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/ic_inspection_camera" android:contentDescription="@string/_no_content_description" />
+    <TextView android:id="@id/photos_count_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" style="@style/Application.Text.Medium.Grey" />
+</merge>

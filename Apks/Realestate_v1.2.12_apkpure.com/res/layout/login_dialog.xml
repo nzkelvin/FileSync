@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/email_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/email_address" android:maxLength="128" android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/password_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" android:maxLength="16" android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+    <TextView android:id="@id/label_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/_create_a_something" android:singleLine="true" style="@style/Application.Text.Medium.Black" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+﻿Installing assembly 'C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.dll'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.dll
+   logfile = C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.InstallLog
+Committing assembly 'C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.dll'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.dll
+   logfile = C:\Repos\Github\nzkelvin\FileSync\Microsoft\D365\SDK20170615\SDK\Tools\PackageDeployer\PowerShell\Microsoft.Xrm.Tooling.CrmConnector.Powershell.InstallLog

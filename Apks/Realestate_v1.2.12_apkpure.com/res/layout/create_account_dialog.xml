@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/name_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/first_and_last_name" android:maxLength="128" android:inputType="textPersonName|textCapWords" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/email_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/email_address" android:maxLength="128" android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/password_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" android:maxLength="16" android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/confirm_password_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/confirm_password" android:maxLength="16" android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
